@@ -1,0 +1,6 @@
+name = str(input('Введите Ваше имя'))
+age = int(input('Введите Ваш возраст'))
+city = str(input('Введите Ваш город'))
+print(f'Добро пожаловать {name}. Вам {age} лет. {city} красивый город. ')
+print('Добро пожаловать %(name)s . Вам %(age)d лет. %(city)s красивый город. ')
+print('Добро пожаловать {name}. Вам {age} лет. {city} красивый город'.format(name, age, city))
